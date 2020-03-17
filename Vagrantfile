@@ -10,7 +10,6 @@ Vagrant.configure(2) do |config|
     ansible.sudo = "true"
   end
 
-
   config.vm.provider "virtualbox" do |v|
 	  v.memory = 256
   end
